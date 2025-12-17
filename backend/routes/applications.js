@@ -2,7 +2,7 @@ const express = require('express');
 const AdoptionApplication = require('../models/AdoptionApplication.js');
 const Pet = require('../models/Pet.js');
 const { auth, adminAuth } = require('../middleware/auth.js');
-const { applyForAdoption, getAllApplications } = require('../contoller/applicationController.js');
+const { applyForAdoption, getAllApplications, getUserApplications, updateApplicationStatus } = require('../contoller/applicationController.js');
 
 const router = express.Router();
 
