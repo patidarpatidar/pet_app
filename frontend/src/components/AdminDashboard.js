@@ -239,6 +239,7 @@ const AdminDashboard = () => {
                         Edit
                       </Button>
                       <Button
+                        className="mx-2"
                         variant="danger"
                         onClick={() => handleDeletePet(pet._id)}
                         size="sm"
